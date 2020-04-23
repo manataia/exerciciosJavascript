@@ -1,0 +1,31 @@
+<!--1 – Calcule a média de diversas notas digitadas pelo usuário.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Média</title>
+</head>
+<body>
+    <header>
+        <h1>Média</h1>
+    </header>
+    <div class="container">
+        <section>
+            <div>
+                <input type="number" name="num" id="num" class="inputs" placeholder="Digite os números">
+                <input type="button" value="Adicionar" class="btn" onclick="add()"><br>
+                <select name="tab" id="tab" size="10">
+                    <option> Números selecionados: </option>
+                </select><br>
+                <input type="button" value="Calcular Média" class="btn" onclick="calc()"><br>
+            </div>
+            <div id="res">
+            </div>
+        </section>
+    </div>
+    <footer>Andrey Gomes</footer>
+    <script src="script.js"></script>
+</body>
+</html>

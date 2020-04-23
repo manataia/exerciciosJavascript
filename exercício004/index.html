@@ -1,0 +1,32 @@
+<!--4 – Peça ao usuário para digitar várias idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idades</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="align">
+                <header><h1>Maioridade</h1></header>
+                <section>
+                    <div id="idades">
+                        <input type="number" name="idade" id="idade" placeholder="Adicione uma idade">
+                        <input type="button" value="Adicionar" class="btn" onclick="adicionar()"><br>
+                        <select name="tela" id="tela" size="10">
+                            <option value="first-option">Idades adicionadas:</option>
+                        </select><br>
+                        <input type="button" value="Calcular Maioridade" class="btn" onclick="calc()">
+                    </div>
+                    <div id="res">
+    
+                    </div>
+                </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
