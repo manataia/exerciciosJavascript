@@ -1,0 +1,26 @@
+<!--6 – Peça ao usuário para digitar vários nomes. Exiba na tela todos os nomes digitados, porém de maneira invertida (do último para o primeiro).-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nomes</h1>
+        </header>
+        <section>
+            <div>
+                <input id="nome" type="text" name="nome" placeholder="Digite os nomes separados por vírgula"><br>
+                <input id="inverter" type="button" value="Inverter Ordem" onclick="invert()">
+            </div>
+            <div id="res">
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

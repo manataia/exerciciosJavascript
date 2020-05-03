@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #8aff57;
+    font: normal 17pt impact;
+}
+
+header{
+    text-align: center;
+    background-color: aqua;
+}
+
+section{
+    text-align: center;
+    background-color: wheat;
+    padding: 15px;
+    height: 300px;
+}
+
+#nome{
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#nome:focus{outline: none;}
+
+#inverter{
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #CECECE;
+    transition: background-color 0.5s;
+}
+
+#inverter:hover{
+    background-color: #ffffff;
+}
+
+#inverter:focus{outline: none;}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
