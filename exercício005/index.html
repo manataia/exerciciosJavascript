@@ -1,0 +1,36 @@
+<!--5 – Crie um programa que entre com os dados de altura e sexo de 5 pessoas. Imprima na tela quantas pessoas são do sexo masculino 
+e quantas pessoas são do sexo feminino. Mostre também qual é a maior altura e se essa altura é de um homem ou uma mulher.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sexo e Altura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="shadow">
+            <header>
+                <h1>Altura e Sexo</h1>
+            </header>
+
+            <section>
+                <div>
+                    <input id="altura" type="number" name="altura" placeholder="Altura"><br>
+
+                    <h2>Sexo</h2>
+                    <input type="radio" name="sexo" value="m" checked>Masculino
+                    <input type="radio" name="sexo" value="f">Feminino
+                    <br>
+                    <input class="button" type="button" value="Adicionar" onclick="adicionar()">
+                    <input id="btn" class="button" type="button" value="Calcular" onclick="calc()">
+                </div>
+                <div id="res">
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
